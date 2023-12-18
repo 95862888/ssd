@@ -117,7 +117,7 @@ for i in range(len(test_images)):
                         2, 
                         lineType=cv2.LINE_AA)
 
-        cv2.imshow('Prediction', orig_image)
+        #cv2.imshow('Prediction', orig_image)
         cv2.waitKey(1)
         cv2.imwrite(f"inference_outputs/images/{image_name}.jpg", orig_image)
     print(f"Image {i+1} done...")
