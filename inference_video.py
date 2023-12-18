@@ -134,7 +134,7 @@ while(cap.isOpened()):
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 
                     2, lineType=cv2.LINE_AA)
 
-        cv2.imshow('image', frame)
+        #cv2.imshow('image', frame)
         out.write(frame)
         # Press `q` to exit.
         if cv2.waitKey(1) & 0xFF == ord('q'):
